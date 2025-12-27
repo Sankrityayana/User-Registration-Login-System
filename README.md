@@ -2,16 +2,17 @@
 
 A secure and simple user registration and login system built with PHP and MySQL for XAMPP.
 
-## Features
+## 🌟 Features
 
-- User Registration with validation
-- User Login with secure password hashing
-- Session management
-- Protected dashboard page
-- Logout functionality
-- Responsive design
-- Input validation and sanitization
-- SQL injection prevention using prepared statements
+- ✅ User Registration with validation
+- ✅ User Login with secure password hashing
+- ✅ Session management
+- ✅ Protected dashboard page
+- ✅ Logout functionality
+- ✅ Clean, responsive light theme design
+- ✅ Input validation and sanitization
+- ✅ SQL injection prevention using prepared statements
+- ✅ Password strength requirements
 
 ## Requirements
 
@@ -38,20 +39,20 @@ A secure and simple user registration and login system built with PHP and MySQL 
 5. Click "Go"
 
 ### Step 3: Place Files in XAMPP
-1. Copy all project files to your XAMPP htdocs directory:
-   - Windows: `C:\xampp\htdocs\user_system\`
-   - Mac/Linux: `/Applications/XAMPP/htdocs/user_system/`
+1. Copy the project folder to your XAMPP htdocs directory:
+   - Windows: `C:\xampp\htdocs\user-registration-login-system\`
+   - Mac/Linux: `/Applications/XAMPP/htdocs/user-registration-login-system/`
 
 ### Step 4: Access the Application
 Open your browser and navigate to:
 ```
-http://localhost/user_system/
+http://localhost/user-registration-login-system/
 ```
 
-## File Structure
+## 📁 File Structure
 
 ```
-user_system/
+user-registration-login-system/
 │
 ├── index.php           # Landing page
 ├── register.php        # User registration page
@@ -59,12 +60,12 @@ user_system/
 ├── dashboard.php      # Protected dashboard (requires login)
 ├── logout.php         # Logout handler
 ├── config.php         # Database configuration
-├── style.css          # Stylesheet
+├── style.css          # Stylesheet (clean light theme)
 ├── database.sql       # Database schema
-└── README.md          # This file
+└── README.md          # Documentation
 ```
 
-## Database Configuration
+## 🔧 Database Configuration
 
 The default configuration in `config.php`:
 ```php
@@ -76,14 +77,14 @@ DB_NAME: user_system
 
 If your XAMPP MySQL has different credentials, update `config.php` accordingly.
 
-## Usage
+## 🚀 Usage
 
 1. **Registration**: Click "Register" and fill in the form with username, email, and password
 2. **Login**: Use your username or email with password to login
 3. **Dashboard**: After successful login, you'll be redirected to the dashboard
 4. **Logout**: Click the logout button to end your session
 
-## Security Features
+## 🔒 Security Features
 
 - Password hashing using `password_hash()` and `password_verify()`
 - SQL injection prevention using prepared statements
@@ -92,7 +93,7 @@ If your XAMPP MySQL has different credentials, update `config.php` accordingly.
 - XSS prevention using `htmlspecialchars()`
 - Protected pages (redirects to login if not authenticated)
 
-## Validation Rules
+## ✔️ Validation Rules
 
 - All fields are required
 - Email must be in valid format
@@ -100,7 +101,7 @@ If your XAMPP MySQL has different credentials, update `config.php` accordingly.
 - Username and email must be unique
 - Passwords must match during registration
 
-## Troubleshooting
+## ⚠️ Troubleshooting
 
 **Database connection error:**
 - Make sure MySQL is running in XAMPP
@@ -116,10 +117,21 @@ If your XAMPP MySQL has different credentials, update `config.php` accordingly.
 - Make sure you registered first
 - Check if database contains user data
 
-## License
+## 💻 Tech Stack
+
+- **Frontend**: HTML5, CSS3 (Clean Light Theme)
+- **Backend**: PHP 7.4+
+- **Database**: MySQL 5.7+
+- **Server**: Apache (XAMPP)
+
+## 🔗 Repository
+
+GitHub: [https://github.com/Sankrityayana/User-Registration-Login-System](https://github.com/Sankrityayana/User-Registration-Login-System)
+
+## 📝 License
 
 Free to use for educational and personal projects.
 
-## Author
+---
 
-Created with PHP and MySQL for XAMPP environment.
+**Created with ❤️ using PHP and MySQL**
